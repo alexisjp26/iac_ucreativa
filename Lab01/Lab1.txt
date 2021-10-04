@@ -1,0 +1,16 @@
+#Steps
+
+#Azure login
+az login
+
+#Create Service Principal
+az ad sp create-for-rbac --name iac_sp_terraform
+
+#Get Subscription ID
+az account subscription list
+
+#Set Environment Variables
+export ARM_CLIENT_ID="01a2ecce-631e-***************"
+export ARM_CLIENT_SECRET="GsQ4d***"
+export ARM_SUBSCRIPTION_ID="e0bbb71b-ec86-4***"
+export ARM_TENANT_ID="1674b27c-e9dc-4476-81d88888******"
