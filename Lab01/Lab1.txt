@@ -10,7 +10,7 @@ az ad sp create-for-rbac --name iac_sp_terraform
 az account subscription list
 
 #Set Environment Variables
-export ARM_CLIENT_ID="01a2ecce-631e-***************"
-export ARM_CLIENT_SECRET="GsQ4d***"
-export ARM_SUBSCRIPTION_ID="e0bbb71b-ec86-4***"
-export ARM_TENANT_ID="1674b27c-e9dc-4476-81d88888******"
+export ARM_CLIENT_ID="383bdb04-bfb2-4bf6-ae01-0dcbcb8baf41"
+export ARM_CLIENT_SECRET="OgrSwI6Fe96es4b746DDdDqhMBjL-1eHq~"
+export ARM_SUBSCRIPTION_ID="e0bbb71b-ec86-45c9-b638-07da0f3968b2"
+export ARM_TENANT_ID="1674b27c-e9dc-4476-81d6-b1ff6e0241bd"
