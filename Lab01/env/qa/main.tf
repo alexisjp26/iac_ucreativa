@@ -24,6 +24,12 @@ module "linux-server" {
   cantidad-servers = 1
 }
 
+module "acr" {
+  source         = "../../modules/container-registry"
+  resource-group = module.linux-server.resource-group-name
+  location       = module.linux-server.location
+}
+
 
 
 

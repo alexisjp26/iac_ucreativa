@@ -1,5 +1,5 @@
 locals {
-  app_prefix = "iac"
+  app_prefix = "iac${terraform.workspace == "default" ? "dev1" : terraform.workspace}"
 }
 
 
